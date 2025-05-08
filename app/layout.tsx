@@ -10,7 +10,12 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "WPLab - Aprende WordPress de forma divertida",
   description: "Aplicación de aprendizaje de WordPress con enfoque práctico y gamificado",
-    generator: 'v0.dev'
+  generator: 'v0.dev',
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
+  }
 }
 
 export default function RootLayout({
