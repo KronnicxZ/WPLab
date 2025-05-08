@@ -1,5 +1,3 @@
-cd c:\Users\monti\Desktop\WPLab# WPLab
-
 WPLab es una aplicación de aprendizaje interactivo de WordPress con un enfoque práctico y gamificado. La plataforma está diseñada para ayudar a los usuarios a aprender WordPress de manera efectiva y divertida.
 
 ## Características
