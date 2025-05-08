@@ -1,0 +1,86 @@
+@tailwind base;
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Ajusta este valor según la altura de tu header */
+}
+@tailwind components;
+@tailwind utilities;
+
+/* Estilo para elementos de menú activos */
+.sidebar-item-active {
+    background-color: #509fd3; /* Azul de Tailwind */
+    color: white !important;
+}
+
+.sidebar-item-active:hover {
+    background-color: #509fd3; /* Azul más oscuro al hacer hover */
+}
+
+/* Estilos para el sidebar en modo claro y oscuro */
+.dark .sidebar {
+    background-color: hsl(var(--background)); /* Fondo oscuro */
+    color: hsl(var(--foreground)); /* Color de texto en modo oscuro */
+}
+
+.sidebar {
+    background-color: hsl(var(--background)); /* Fondo claro */
+    color: hsl(var(--foreground)); /* Color de texto en modo claro */
+}
+
+
+@layer base {
+  :root {
+    --background: 202 80% 98%;
+    --foreground: 210 50% 20%;
+    --card: 0 0% 100%;
+    --card-foreground: 210 50% 20%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 50% 20%;
+    --primary: 204 60% 57%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 63% 34%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 204 60% 95%;
+    --muted-foreground: 210 40% 40%;
+    --accent: 204 60% 90%;
+    --accent-foreground: 210 50% 20%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 204 60% 90%;
+    --input: 204 60% 90%;
+    --ring: 204 60% 57%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 210 50% 10%;
+    --foreground: 204 60% 95%;
+    --card: 210 50% 10%;
+    --card-foreground: 204 60% 95%;
+    --popover: 210 50% 10%;
+    --popover-foreground: 204 60% 95%;
+    --primary: 204 60% 57%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 63% 34%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 210 40% 20%;
+    --muted-foreground: 204 40% 80%;
+    --accent: 210 40% 20%;
+    --accent-foreground: 204 60% 95%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 210 40% 20%;
+    --input: 210 40% 20%;
+    --ring: 204 60% 57%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
