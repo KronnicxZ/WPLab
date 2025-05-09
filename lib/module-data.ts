@@ -13,61 +13,26 @@ export const moduleData: { [key: number]: any } = {
         duration: "10 min",
         lessonContent: "WordPress es un sistema de gestión de contenido (CMS) de código abierto que permite crear y administrar sitios web de manera sencilla. Fundado en 2003, WordPress ha evolucionado de ser un simple sistema de blogs a una plataforma versátil que impulsa más del 40% de todos los sitios web en internet. Sus principales ventajas incluyen: facilidad de uso, gran cantidad de plugins y temas, flexibilidad para diferentes tipos de sitios web, y una comunidad de desarrollo activa.",
         content: `
-          <h2>¿Qué es WordPress?</h2>
-          <p>WordPress es un sistema de gestión de contenidos (CMS) que revolucionó la creación de sitios web. Nacido en 2003 como una plataforma de blogs, hoy impulsa más del 40% de todos los sitios web en Internet, desde blogs personales hasta sitios corporativos de Fortune 500.</p>
+          <h2>Introducción a WordPress</h2>
+          <p>WordPress es mucho más que un simple sistema de gestión de contenido. Es una plataforma revolucionaria que ha transformado la forma en que creamos y gestionamos sitios web.</p>
 
-          <h3>Historia y Evolución</h3>
-          <p>WordPress comenzó como una bifurcación de b2/cafelog y ha evolucionado hasta convertirse en el CMS más usado del mundo. Su filosofía de democratizar la publicación web ha permitido que millones de personas puedan tener presencia en Internet sin necesidad de conocimientos técnicos avanzados.</p>
+          <h3>Historia y Contexto</h3>
+          <p>Desde su lanzamiento en 2003, WordPress ha evolucionado de ser una simple plataforma de blogs a un sistema versátil capaz de manejar cualquier tipo de sitio web: desde blogs personales hasta tiendas online complejas, portafolios profesionales y sitios web corporativos.</p>
 
-          <h3>Características Fundamentales</h3>
+          <h3>Lo que Descubrirás</h3>
           <ul>
-            <li><strong>Sistema de Bloques Gutenberg:</strong> Editor visual moderno que revoluciona la creación de contenido.</li>
-            <li><strong>REST API:</strong> Permite la integración con aplicaciones modernas y headless CMS.</li>
-            <li><strong>Multisite:</strong> Capacidad de gestionar múltiples sitios desde una sola instalación.</li>
-            <li><strong>Taxonomías Personalizadas:</strong> Organización flexible del contenido mediante categorías y etiquetas.</li>
-            <li><strong>Roles de Usuario:</strong> Sistema jerárquico de permisos para gestión de accesos.</li>
+            <li>Los orígenes de WordPress</li>
+            <li>Las diferencias entre WordPress.com y WordPress.org</li>
+            <li>Por qué WordPress es la elección número uno para crear sitios web</li>
+            <li>Las increíbles capacidades de esta plataforma de código abierto</li>
           </ul>
 
-          <h3>WordPress.com vs WordPress.org</h3>
-          <table>
-            <tr>
-              <th>Característica</th>
-              <th>WordPress.org</th>
-              <th>WordPress.com</th>
-            </tr>
-            <tr>
-              <td>Control del código</td>
-              <td>Total</td>
-              <td>Limitado</td>
-            </tr>
-            <tr>
-              <td>Hosting</td>
-              <td>Autogestión</td>
-              <td>Incluido</td>
-            </tr>
-            <tr>
-              <td>Plugins</td>
-              <td>Ilimitados</td>
-              <td>Plan Business+</td>
-            </tr>
-            <tr>
-              <td>Monetización</td>
-              <td>Sin restricciones</td>
-              <td>Con limitaciones</td>
-            </tr>
-          </table>
+          <h3>Impacto Global</h3>
+          <p>WordPress impulsa más del 40% de todos los sitios web en internet, demostrando su poder y versatilidad como herramienta de creación web. Su comunidad global de desarrolladores y su filosofía de código abierto lo han convertido en la plataforma preferida para millones de creadores de contenido en todo el mundo.</p>
 
-          <h3>El Ecosistema WordPress</h3>
-          <p>WordPress no es solo un CMS, es un ecosistema completo que incluye:</p>
-          <ul>
-            <li>Más de 59,000 plugins gratuitos</li>
-            <li>Miles de temas profesionales</li>
-            <li>Una comunidad global de desarrolladores</li>
-            <li>Eventos WordCamp en todo el mundo</li>
-            <li>Recursos educativos extensivos</li>
-          </ul>
+          <h3>Objetivos de la Lección</h3>
+          <p>Al final de esta lección, comprenderás los fundamentos de WordPress, su importancia en el ecosistema web actual, y cómo puede transformar tu forma de crear y gestionar contenido en línea.</p>
         `,
-        image: "/images/lesson-wordpress-intro.png",
         quiz: [
           {
             id: 1,
@@ -290,84 +255,21 @@ export const moduleData: { [key: number]: any } = {
                 <li>Comentarios y discusiones</li>
                 <li>Botones de compartir</li>
                 <li>Trackbacks y pingbacks</li>
-              </ul>
-            </li>
-            <li><strong>Archivos y Feeds:</strong>
-              <ul>
-                <li>Organización cronológica</li>
-                <li>Feeds RSS automáticos</li>
-                <li>Archivos por fecha</li>
-              </ul>
-            </li>
           </ul>
 
-          <h3>Anatomía de una Página</h3>
-          <table>
-            <tr>
-              <th>Elemento</th>
-              <th>Descripción</th>
-              <th>Uso Recomendado</th>
-            </tr>
-            <tr>
-              <td>Plantilla</td>
-              <td>Diseño personalizado</td>
-              <td>Layouts específicos</td>
-            </tr>
-            <tr>
-              <td>Jerarquía</td>
-              <td>Estructura padre-hijo</td>
-              <td>Organización de contenido</td>
-            </tr>
-            <tr>
-              <td>Orden</td>
-              <td>Posición en menú</td>
-              <td>Navegación principal</td>
-            </tr>
-          </table>
-
-          <h3>Casos de Uso Específicos</h3>
-          <h4>Entradas Ideales Para:</h4>
+          <h4>Páginas: Contenido Estático y Permanente</h4>
           <ul>
-            <li>Blogs y actualizaciones</li>
-            <li>Noticias y eventos</li>
-            <li>Artículos de conocimiento</li>
-            <li>Reseñas y opiniones</li>
-            <li>Portafolio dinámico</li>
+            <li>No tienen fecha de publicación</li>
+            <li>Información permanente y estructural</li>
+            <li>Ejemplos: 'Sobre Nosotros', 'Contacto', 'Políticas'</li>
+            <li>Fundamentales para la navegación principal</li>
           </ul>
 
-          <h4>Páginas Ideales Para:</h4>
-          <ul>
-            <li>Información corporativa</li>
-            <li>Servicios principales</li>
-            <li>Políticas y términos</li>
-            <li>Formularios de contacto</li>
-            <li>Landings promocionales</li>
-          </ul>
+          <h3>Estrategia de Contenido</h3>
+          <p>La clave está en usar cada tipo de contenido según su propósito: entradas para lo dinámico y páginas para lo permanente. Esta distinción te ayudará a crear un sitio web más organizado, accesible y atractivo.</p>
 
-          <h3>Mejores Prácticas de Organización</h3>
-          <ol>
-            <li><strong>Planificación de Estructura</strong>
-              <ul>
-                <li>Mapear contenido antes de crear</li>
-                <li>Definir jerarquías claras</li>
-                <li>Establecer taxonomías consistentes</li>
-              </ul>
-            </li>
-            <li><strong>Optimización de URLs</strong>
-              <ul>
-                <li>Usar slugs descriptivos</li>
-                <li>Mantener URLs cortas</li>
-                <li>Incluir palabras clave relevantes</li>
-              </ul>
-            </li>
-            <li><strong>Gestión de Contenido</strong>
-              <ul>
-                <li>Actualizar regularmente</li>
-                <li>Mantener consistencia</li>
-                <li>Revisar enlaces internos</li>
-              </ul>
-            </li>
-          </ol>
+          <h3>Objetivos de Aprendizaje</h3>
+          <p>Aprenderás a elegir entre entradas y páginas, optimizando la estructura de tu sitio WordPress.</p>
         `,
         image: "/images/posts-vs-pages.png",
         quiz: [
@@ -400,137 +302,39 @@ export const moduleData: { [key: number]: any } = {
         title: "Temas de WordPress",
         description: "Cómo elegir y cambiar temas",
         duration: "10 min",
-        lessonContent: "Los temas en WordPress determinan completamente el diseño y la apariencia visual de tu sitio web. Un tema incluye archivos de plantilla, hojas de estilo, y archivos de configuración que definen cómo se muestra el contenido. Al elegir un tema, considera factores como: propósito del sitio, diseño responsivo, velocidad de carga, personalización, compatibilidad con plugins, y soporte del desarrollador. Puedes encontrar temas gratuitos en el repositorio oficial de WordPress o temas premium en sitios especializados.",
         content: `
-          <h2>Temas de WordPress: La Base del Diseño Web</h2>
-          <p>Los temas son el fundamento visual y funcional de WordPress, determinando no solo la apariencia sino también la experiencia de usuario y el rendimiento del sitio. Un tema bien elegido puede marcar la diferencia entre un sitio profesional y uno amateur.</p>
+          <h2>Diseño y Personalización en WordPress</h2>
+          <p>Un tema en WordPress no es solo un diseño, es la identidad visual y funcional de tu sitio web. Define cómo los visitantes perciben y experimentan tu contenido.</p>
 
           <h3>Anatomía de un Tema WordPress</h3>
-          <table>
-            <tr>
-              <th>Componente</th>
-              <th>Función</th>
-              <th>Impacto</th>
-            </tr>
-            <tr>
-              <td>Template Files</td>
-              <td>Estructura del contenido</td>
-              <td>SEO y usabilidad</td>
-            </tr>
-            <tr>
-              <td>Functions.php</td>
-              <td>Funcionalidad core</td>
-              <td>Rendimiento</td>
-            </tr>
-            <tr>
-              <td>Style.css</td>
-              <td>Diseño visual</td>
-              <td>Experiencia de usuario</td>
-            </tr>
-            <tr>
-              <td>Assets</td>
-              <td>Recursos multimedia</td>
-              <td>Tiempo de carga</td>
-            </tr>
-          </table>
+          <p>Los temas son mucho más que imágenes y colores. Son sistemas complejos que controlan la presentación, la usabilidad y la respuesta de tu sitio web.</p>
+
+          <h4>Componentes Fundamentales</h4>
+          <ul>
+            <li><strong>Archivos de Plantilla:</strong> Definen la estructura de cada tipo de página</li>
+            <li><strong>Hojas de Estilo (CSS):</strong> Controlan el diseño, colores y tipografía</li>
+            <li><strong>Funciones PHP:</strong> Añaden características y personalizaciones</li>
+            <li><strong>Archivos de Configuración:</strong> Permiten personalizaciones dinámicas</li>
+          </ul>
 
           <h3>Tipos de Temas</h3>
-          <ol>
-            <li><strong>Temas Gratuitos</strong>
-              <ul>
-                <li>Disponibles en wordpress.org</li>
-                <li>Funcionalidades básicas</li>
-                <li>Soporte comunitario</li>
-                <li>Actualizaciones limitadas</li>
-              </ul>
-            </li>
-            <li><strong>Temas Premium</strong>
-              <ul>
-                <li>Diseños profesionales</li>
-                <li>Funciones avanzadas</li>
-                <li>Soporte dedicado</li>
-                <li>Actualizaciones regulares</li>
-              </ul>
-            </li>
-            <li><strong>Temas Personalizados</strong>
-              <ul>
-                <li>Desarrollo a medida</li>
-                <li>Control total</li>
-                <li>Optimización específica</li>
-                <li>Mantenimiento propio</li>
-              </ul>
-            </li>
-          </ol>
-
-          <h3>Criterios de Selección</h3>
-          <table>
-            <tr>
-              <th>Criterio</th>
-              <th>Importancia</th>
-              <th>Consideraciones</th>
-            </tr>
-            <tr>
-              <td>Responsive Design</td>
-              <td>Crítica</td>
-              <td>Adaptación móvil perfecta</td>
-            </tr>
-            <tr>
-              <td>Velocidad</td>
-              <td>Alta</td>
-              <td>Optimización de código</td>
-            </tr>
-            <tr>
-              <td>SEO</td>
-              <td>Alta</td>
-              <td>Estructura semántica</td>
-            </tr>
-            <tr>
-              <td>Personalización</td>
-              <td>Media</td>
-              <td>Opciones flexibles</td>
-            </tr>
-          </table>
-
-          <h3>Mejores Prácticas de Implementación</h3>
-          <ol>
-            <li><strong>Preparación</strong>
-              <ul>
-                <li>Backup completo del sitio</li>
-                <li>Entorno de pruebas</li>
-                <li>Análisis de compatibilidad</li>
-              </ul>
-            </li>
-            <li><strong>Instalación</strong>
-              <ul>
-                <li>Verificación de requisitos</li>
-                <li>Instalación limpia</li>
-                <li>Activación progresiva</li>
-              </ul>
-            </li>
-            <li><strong>Personalización</strong>
-              <ul>
-                <li>Configuración inicial</li>
-                <li>Ajustes de diseño</li>
-                <li>Pruebas de funcionalidad</li>
-              </ul>
-            </li>
-            <li><strong>Optimización</strong>
-              <ul>
-                <li>Caché y compresión</li>
-                <li>Imágenes optimizadas</li>
-                <li>Minificación de código</li>
-              </ul>
-            </li>
-          </ol>
-
-          <h3>Tendencias Actuales en Temas</h3>
           <ul>
-            <li><strong>Diseño Minimalista</strong>: Enfoque en la simplicidad y usabilidad</li>
-            <li><strong>Bloques Gutenberg</strong>: Compatibilidad con el editor moderno</li>
-            <li><strong>Micro-interacciones</strong>: Elementos interactivos sutiles</li>
-            <li><strong>Dark Mode</strong>: Soporte para modo oscuro</li>
-            <li><strong>Rendimiento Mobile-First</strong>: Optimización para dispositivos móviles</li>
+            <li><strong>Temas Gratuitos:</strong> Disponibles en el repositorio oficial de WordPress</li>
+            <li><strong>Temas Premium:</strong> Diseños profesionales con soporte dedicado</li>
+            <li><strong>Temas Personalizados:</strong> Desarrollados específicamente para necesidades únicas</li>
           </ul>
+
+          <h3>Consideraciones al Elegir un Tema</h3>
+          <ol>
+            <li>Compatibilidad con plugins</li>
+            <li>Diseño responsivo</li>
+            <li>Velocidad de carga</li>
+            <li>Opciones de personalización</li>
+            <li>Soporte y actualizaciones</li>
+          </ol>
+
+          <h3>Objetivos de la Lección</h3>
+          <p>Aprenderás a elegir, personalizar e implementar temas que no solo se vean bien, sino que mejoren la experiencia de usuario de tu sitio web.</p>
         `,
         image: "/images/wordpress-themes.png",
         quiz: [
@@ -563,140 +367,40 @@ export const moduleData: { [key: number]: any } = {
         title: "Introducción a los plugins",
         description: "Qué son los plugins y cómo funcionan",
         duration: "12 min",
-        lessonContent: "Los plugins son piezas de software que se 'enchufan' a WordPress para añadir funcionalidades específicas sin modificar el núcleo del sistema. Pueden realizar tareas desde mejoras de SEO, seguridad, optimización de rendimiento, hasta crear formularios de contacto o galerías de imágenes. Cada plugin se instala fácilmente desde el directorio de WordPress o mediante subida manual. Es crucial elegir plugins bien mantenidos, compatibles con tu versión de WordPress y con buenas calificaciones de la comunidad.",
         content: `
           <h2>Plugins: Extendiendo las Capacidades de WordPress</h2>
-          <p>Los plugins son el corazón de la extensibilidad de WordPress, permitiendo transformar un sitio básico en una plataforma potente y personalizada. Comprender su funcionamiento y gestión es crucial para el éxito de cualquier proyecto WordPress.</p>
+          <p>Los plugins son la magia que convierte un sitio web WordPress estándar en una plataforma personalizada y potente. Son como aplicaciones que se 'enchufan' a tu sitio para agregar nuevas funcionalidades.</p>
 
-          <h3>Anatomía de un Plugin</h3>
-          <table>
-            <tr>
-              <th>Componente</th>
-              <th>Función</th>
-              <th>Importancia</th>
-            </tr>
-            <tr>
-              <td>Archivo Principal</td>
-              <td>Inicialización y hooks</td>
-              <td>Fundamental</td>
-            </tr>
-            <tr>
-              <td>Includes</td>
-              <td>Funciones auxiliares</td>
-              <td>Alta</td>
-            </tr>
-            <tr>
-              <td>Assets</td>
-              <td>Recursos estáticos</td>
-              <td>Media</td>
-            </tr>
-            <tr>
-              <td>Languages</td>
-              <td>Traducciones</td>
-              <td>Variable</td>
-            </tr>
-          </table>
+          <h3>¿Qué Son los Plugins?</h3>
+          <p>Un plugin es un fragmento de código que se integra con WordPress para añadir características específicas sin modificar el núcleo del sistema. Es como agregar superpoderes a tu sitio web.</p>
 
-          <h3>Tipos de Plugins</h3>
-          <ol>
-            <li><strong>Funcionalidad</strong>
-              <ul>
-                <li>SEO y Marketing</li>
-                <li>Seguridad y Backups</li>
-                <li>Formularios y CRM</li>
-                <li>E-commerce y Pagos</li>
-                <li>Caché y Optimización</li>
-              </ul>
-            </li>
-            <li><strong>Integración</strong>
-              <ul>
-                <li>Redes Sociales</li>
-                <li>Análisis y Estadísticas</li>
-                <li>Email Marketing</li>
-                <li>APIs Externas</li>
-              </ul>
-            </li>
-            <li><strong>Contenido</strong>
-              <ul>
-                <li>Editores Visuales</li>
-                <li>Galerías y Media</li>
-                <li>Calendarios y Eventos</li>
-                <li>Membresías y Usuarios</li>
-              </ul>
-            </li>
-          </ol>
-
-          <h3>Criterios de Selección</h3>
-          <table>
-            <tr>
-              <th>Criterio</th>
-              <th>Indicadores</th>
-              <th>Peso</th>
-            </tr>
-            <tr>
-              <td>Seguridad</td>
-              <td>Actualizaciones regulares</td>
-              <td>Crítico</td>
-            </tr>
-            <tr>
-              <td>Rendimiento</td>
-              <td>Impacto en carga</td>
-              <td>Alto</td>
-            </tr>
-            <tr>
-              <td>Soporte</td>
-              <td>Respuesta y documentación</td>
-              <td>Medio</td>
-            </tr>
-            <tr>
-              <td>Compatibilidad</td>
-              <td>Versiones WP y PHP</td>
-              <td>Alto</td>
-            </tr>
-          </table>
-
-          <h3>Mejores Prácticas de Gestión</h3>
-          <ol>
-            <li><strong>Instalación</strong>
-              <ul>
-                <li>Verificar requisitos</li>
-                <li>Backup previo</li>
-                <li>Entorno de pruebas</li>
-              </ul>
-            </li>
-            <li><strong>Mantenimiento</strong>
-              <ul>
-                <li>Actualizaciones programadas</li>
-                <li>Monitoreo de conflictos</li>
-                <li>Optimización periódica</li>
-              </ul>
-            </li>
-            <li><strong>Seguridad</strong>
-              <ul>
-                <li>Fuentes confiables</li>
-                <li>Revisión de permisos</li>
-                <li>Auditoría regular</li>
-              </ul>
-            </li>
-          </ol>
-
-          <h3>Consideraciones de Rendimiento</h3>
+          <h4>Tipos de Plugins</h4>
           <ul>
-            <li><strong>Impacto en Velocidad</strong>
-              <ul>
-                <li>Número total de plugins</li>
-                <li>Calidad del código</li>
-                <li>Carga de recursos</li>
-              </ul>
-            </li>
-            <li><strong>Optimización</strong>
-              <ul>
-                <li>Combinación de archivos</li>
-                <li>Caché de consultas</li>
-                <li>Lazy loading</li>
-              </ul>
-            </li>
+            <li><strong>SEO:</strong> Optimización para motores de búsqueda</li>
+            <li><strong>Seguridad:</strong> Protección contra amenazas</li>
+            <li><strong>Rendimiento:</strong> Mejora de velocidad y carga</li>
+            <li><strong>Formularios:</strong> Creación de formularios de contacto</li>
+            <li><strong>E-commerce:</strong> Funcionalidades de tienda online</li>
           </ul>
+
+          <h3>Cómo Funcionan los Plugins</h3>
+          <ol>
+            <li>Se descargan desde el repositorio de WordPress</li>
+            <li>Se instalan directamente desde el panel de administración</li>
+            <li>Se activan para comenzar a funcionar</li>
+            <li>Se pueden configurar según necesidades específicas</li>
+          </ol>
+
+          <h3>Mejores Prácticas</h3>
+          <ul>
+            <li>Instalar solo plugins necesarios</li>
+            <li>Verificar compatibilidad con la versión de WordPress</li>
+            <li>Mantener plugins actualizados</li>
+            <li>Leer reseñas y calificaciones</li>
+          </ul>
+
+          <h3>Objetivos de Aprendizaje</h3>
+          <p>Descubrirás cómo los plugins pueden transformar tu sitio web, añadiendo funcionalidades avanzadas sin necesidad de programación compleja.</p>
         `,
         image: "/images/wordpress-plugins.png",
         quiz: [
@@ -723,7 +427,6 @@ export const moduleData: { [key: number]: any } = {
         title: "Fundamentos de SEO",
         description: "Conceptos básicos de optimización para buscadores",
         duration: "15 min",
-        lessonContent: "SEO (Search Engine Optimization) es el proceso de mejorar la visibilidad de un sitio web en los resultados de búsqueda orgánicos. En WordPress, el SEO implica optimizar contenido, estructura, velocidad y metadatos para que los motores de búsqueda como Google entiendan y rankeen mejor tu sitio. Aspectos clave incluyen: uso de palabras clave relevantes, títulos y descripciones descriptivas, enlaces internos de calidad, contenido original y valioso, y velocidad de carga del sitio.",
         content: `
           <h2>SEO en WordPress: Optimización Integral</h2>
           <p>El SEO (Search Engine Optimization) es una disciplina fundamental que combina técnicas técnicas, contenido y estrategia para mejorar la visibilidad de un sitio WordPress en los motores de búsqueda. Un enfoque sistemático del SEO puede transformar completamente el rendimiento de tu sitio.</p>
