@@ -1,5 +1,5 @@
 // Datos completos de todos los módulos y lecciones
-export const moduleData = {
+export const moduleData: { [key: number]: any } = {
   1: {
     id: 1,
     title: "Fundamentos de WordPress",
@@ -11,6 +11,7 @@ export const moduleData = {
         title: "Introducción a WordPress",
         description: "¿Qué es WordPress y por qué usarlo?",
         duration: "10 min",
+        lessonContent: "WordPress es un sistema de gestión de contenido (CMS) de código abierto que permite crear y administrar sitios web de manera sencilla. Fundado en 2003, WordPress ha evolucionado de ser un simple sistema de blogs a una plataforma versátil que impulsa más del 40% de todos los sitios web en internet. Sus principales ventajas incluyen: facilidad de uso, gran cantidad de plugins y temas, flexibilidad para diferentes tipos de sitios web, y una comunidad de desarrollo activa.",
         content: `
           <h2>¿Qué es WordPress?</h2>
           <p>WordPress es un sistema de gestión de contenidos (CMS) que revolucionó la creación de sitios web. Nacido en 2003 como una plataforma de blogs, hoy impulsa más del 40% de todos los sitios web en Internet, desde blogs personales hasta sitios corporativos de Fortune 500.</p>
@@ -239,6 +240,7 @@ export const moduleData = {
         title: "Entradas vs Páginas",
         description: "Diferencias y cuándo usar cada una",
         duration: "8 min",
+        lessonContent: "En WordPress, entradas y páginas son dos tipos de contenido fundamentales con propósitos distintos. Las entradas son contenido dinámico y cronológico, típicamente usadas en blogs para artículos que se actualizan regularmente. Aparecen en orden inverso de fecha y pueden categorizarse y etiquetarse. Las páginas, por otro lado, son contenido estático como 'Sobre Nosotros', 'Contacto' o 'Política de Privacidad'. No tienen fecha de publicación y generalmente se usan para información permanente del sitio.",
         content: `
           <h2>Entradas vs Páginas: Estructurando el Contenido en WordPress</h2>
           <p>La gestión efectiva del contenido en WordPress se basa en entender profundamente las diferencias y usos específicos de entradas y páginas. Cada tipo de contenido tiene características únicas que determinan su mejor uso en diferentes escenarios.</p>
@@ -398,6 +400,7 @@ export const moduleData = {
         title: "Temas de WordPress",
         description: "Cómo elegir y cambiar temas",
         duration: "10 min",
+        lessonContent: "Los temas en WordPress determinan completamente el diseño y la apariencia visual de tu sitio web. Un tema incluye archivos de plantilla, hojas de estilo, y archivos de configuración que definen cómo se muestra el contenido. Al elegir un tema, considera factores como: propósito del sitio, diseño responsivo, velocidad de carga, personalización, compatibilidad con plugins, y soporte del desarrollador. Puedes encontrar temas gratuitos en el repositorio oficial de WordPress o temas premium en sitios especializados.",
         content: `
           <h2>Temas de WordPress: La Base del Diseño Web</h2>
           <p>Los temas son el fundamento visual y funcional de WordPress, determinando no solo la apariencia sino también la experiencia de usuario y el rendimiento del sitio. Un tema bien elegido puede marcar la diferencia entre un sitio profesional y uno amateur.</p>
@@ -559,7 +562,8 @@ export const moduleData = {
         id: 1,
         title: "Introducción a los plugins",
         description: "Qué son los plugins y cómo funcionan",
-        duration: "8 min",
+        duration: "12 min",
+        lessonContent: "Los plugins son piezas de software que se 'enchufan' a WordPress para añadir funcionalidades específicas sin modificar el núcleo del sistema. Pueden realizar tareas desde mejoras de SEO, seguridad, optimización de rendimiento, hasta crear formularios de contacto o galerías de imágenes. Cada plugin se instala fácilmente desde el directorio de WordPress o mediante subida manual. Es crucial elegir plugins bien mantenidos, compatibles con tu versión de WordPress y con buenas calificaciones de la comunidad.",
         content: `
           <h2>Plugins: Extendiendo las Capacidades de WordPress</h2>
           <p>Los plugins son el corazón de la extensibilidad de WordPress, permitiendo transformar un sitio básico en una plataforma potente y personalizada. Comprender su funcionamiento y gestión es crucial para el éxito de cualquier proyecto WordPress.</p>
@@ -719,6 +723,7 @@ export const moduleData = {
         title: "Fundamentos de SEO",
         description: "Conceptos básicos de optimización para buscadores",
         duration: "15 min",
+        lessonContent: "SEO (Search Engine Optimization) es el proceso de mejorar la visibilidad de un sitio web en los resultados de búsqueda orgánicos. En WordPress, el SEO implica optimizar contenido, estructura, velocidad y metadatos para que los motores de búsqueda como Google entiendan y rankeen mejor tu sitio. Aspectos clave incluyen: uso de palabras clave relevantes, títulos y descripciones descriptivas, enlaces internos de calidad, contenido original y valioso, y velocidad de carga del sitio.",
         content: `
           <h2>SEO en WordPress: Optimización Integral</h2>
           <p>El SEO (Search Engine Optimization) es una disciplina fundamental que combina técnicas técnicas, contenido y estrategia para mejorar la visibilidad de un sitio WordPress en los motores de búsqueda. Un enfoque sistemático del SEO puede transformar completamente el rendimiento de tu sitio.</p>
@@ -1046,6 +1051,7 @@ export const moduleData = {
         title: "Seguridad básica",
         description: "Protege tu sitio de amenazas comunes",
         duration: "15 min",
+        lessonContent: "La seguridad en WordPress es crítica para prevenir hackeos, robo de datos y mal funcionamiento del sitio. Las principales amenazas incluyen contraseñas débiles, plugins desactualizados, y vulnerabilidades en temas. Estrategias de protección básicas son: usar contraseñas fuertes, mantener WordPress y plugins actualizados, limitar intentos de inicio de sesión, usar autenticación de dos factores, instalar plugins de seguridad, y realizar copias de seguridad regulares.",
         content: `
           <h2>Seguridad en WordPress: Protección Integral</h2>
           <p>La seguridad en WordPress es un proceso continuo y multifacético que requiere un enfoque holístico. Como plataforma que impulsa más del 40% de la web, WordPress es un objetivo constante de ataques, lo que hace crucial implementar una estrategia de seguridad robusta.</p>
